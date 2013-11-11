@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+</head>
+<title>The Positivity Pot</title>
+<body>
+<div>
+<h1> Positivity Pot </h1>
+    <ul>
+        <li>"I believe that if life gives you lemons, you should make lemonade... And try to find somebody whose life has given them vodka, and have a party." <br><span>- Ron White</span></li>
+        <li>"A word to the wise ain't necessary - it's the stupid ones that need the advise." <br><span>- Bill Cosby</span></li>
+        <li>"Do not take life too seriously. You will never get out of it alive."<br><span> - Elbert Hubbard</span></li>
+        <li>"Behind every great man is a woman rolling her eyes."<br><span> - Jim Carrey</span></li>
+        <li>"Go to Heaven for the climate, Hell for the company."<br><span> - Mark Twain</span></li>
+        <li>"Success is not final, failure is not fatal: it is the courage to continue that counts."<br><span> -Winston Churchill</span></li>
+        <li>"Mass demand has been created almost entirely through the development of advertising."<br><span>- Calvin (Silent Cal) Coolidge</span></li>
+        <li>"Youth is a blunder; Manhood a struggle, Old Age a regret."<br><span> - Benjamin Disraeli</span></li>
+        <li>"This is the precept by which I have lived: Prepare for the worst; expect the best; and take what comes."<br><span> - Hannah Ardent</span></li>
+        <li>"Be careful about reading health books. You may die of a misprint."<br><span> - Mark Twain</span></li>
+    </ul>
+
+	<a href="index.html"><p>Refresh</p></a>
+</div>
+</body>
+<footer><p>Brought to you by <strong>Team Work in Progress</strong></p>
+</footer>
+</html>
+
+<script>
+var list = $("ul li").toArray();
+var elemlength = list.length;
+var randomnum = Math.floor(Math.random()*elemlength);
+var randomitem = list[randomnum];
+$(randomitem).css("display", "block");
+</script>
