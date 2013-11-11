@@ -2,14 +2,44 @@ body { font-family: Helvetica, Arial, sans-serif; font-size:20px; }
 li { display: none; }
 h1 {
 	text-align: center;
+	color: gray;
 	font-family: courier, serif;
 	font-size: 50px;
-	margin-top: 20px;
+	margin-top: 190px;
 	margin-bottom: 60px;
 }
 
 li {
+	margin-left: 10%;
+	margin-right: 10%;
+	line-height: 35px;
+	text-align: center;
+	font-family: courier, serif;
+	font-size: 30px;
+}
+
+a {
 	text-align: center;
 	font-family: courier, serif;
 	font-size: 18px;
+	text-decoration: underline;
+	color: gray;
+}
+
+span {
+	font-style: italic;
+	color: #E99678;
+}
+
+div {
+	margin: 0 auto;
+}
+
+footer {
+	position: absolute;
+	bottom: 10px;
+	left: 20px;
+	font-size: 12px;
+	font-family: courier, serif;
+
 }
